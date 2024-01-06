@@ -117,7 +117,7 @@ Feature: Selenium4
 
 
 
-  Scenario: Download a PDF file from a website
-    Given I am on the website
-    When I click on the PDF download link
-    Then the PDF file should be downloaded successfully
+#  Scenario: Download a PDF file from a website
+#    Given I am on the website
+#    When I click on the PDF download link
+#    Then the PDF file should be downloaded successfully

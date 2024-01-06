@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.opera.OperaDriver;
+//import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -350,10 +350,10 @@ public class Driver {
 
                 case "opera":
 //                    WebDriverManager.operadriver().setup();            // After Selenium 4 we don't need this line anymore
-                    driverPool.set(new OperaDriver());
-                    driverPool.get().manage().window().maximize();
-                    driverPool.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-                    break;
+//                    driverPool.set(new OperaDriver());
+//                    driverPool.get().manage().window().maximize();
+//                    driverPool.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//                    break;
 
 //                case "opera":
 //                    WebDriverManager.operadriver().setup();
