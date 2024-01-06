@@ -303,7 +303,7 @@ public class CrmProjectTask_SD {
         String actualText = taskPage.checkDeadline.getText();
 
         Assert.assertEquals(expectedText, actualText);
-            }
+    }
 
 
 
